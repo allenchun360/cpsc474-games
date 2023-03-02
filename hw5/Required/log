@@ -1,0 +1,16 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+        Time     Time
+Date    Started  Spent  Work completed
+-----   -------  -----  --------------
+12/1     2:00pm   8:00  worked on linear approximation through run_q_learning
+                        function
+                 -----
+                 8:00  TOTAL time spent
+
+I discussed my solution with: Abhijit Gupta and Kishan Patel.
+
+DISCUSSION
+
+Figuring out which data structure to store the updating q-values and the alpha values
+took a while. I eventually decided to go with a dictionary that used bin values as keys and a dictionary of action keys and q-value/alpha values as the values (dictionary within a dictionary). Trying to get as close to Professor Glenn's outputs in the spec involved a lot of plugging and chugging values.

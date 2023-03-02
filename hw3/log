@@ -1,0 +1,17 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+        Time     Time
+Date    Started  Spent  Work completed
+-----   -------  -----  --------------
+10/27    2:00pm   8:00  worked on getting find, win, score, and lottery to work,
+                        started on verify
+10/28    2:00pm   2:00  worked on getting verify to work
+                 -----
+                 10:00  TOTAL time spent
+
+I discussed my solution with: Kishan Patel.
+
+DISCUSSION
+
+Understanding the starter code from the beginning was difficult
+as there were many concepts and commands to implement. Once I understood the starter code, figuring out how to calculate probabilites for particular strategies using the linear programming function. Once I got find to work functionally, I then started working on verify where I had to check if the mixed strategy outputted by find was in equilibrium by comparing the mixed strategies to every combination of pure strategies. While implmenting both find and verify, I worked on tolerance to try passing more public test cases.

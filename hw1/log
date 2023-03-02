@@ -1,0 +1,22 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+9/14   5:00pm  1:00  read assignment and played many games to help me
+                     understand the rules.
+9/15   5:00pm  2:00  worked on the throw policy using the score
+                     function as well as hardcoding for some dealt hands
+9/16   5:00pm  1:00  continually ran TestCribbage to see how
+                     to increase the average scores
+9/17   5:00pm  2:00  worked on peg policy, coming up with strategies
+                     based on the hand dealt to me as well as the history
+               ----
+               6:00  TOTAL time spent
+
+I discussed my solution with: Kishan Patel and Abhijit Gupta.
+
+DISCUSSION
+
+Understanding the starter code from the beginning was difficult
+as there were many functions linked together throughout multiple files. Once I understood the starter code, figuring out how to increase my average scores took a long time. I first tested out all the important cards that could be dealt to me including low cards, face cards, and the 6789 cards (which strategically valuable cards) increasing and decreasing their scores in the throw policy. I also used score in scoring and passed through it every single remaining card in the deck as a potential turn card to compute a mean score for every keep and throw cards. Working on the pegging policy made me think about how to utilize the attributes in the game class to determine things like total score and history. In the pegging policy, I increased and decreased scores for certain cards based on its total score after having been pegged.

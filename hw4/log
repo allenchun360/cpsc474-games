@@ -1,0 +1,21 @@
+ESTIMATE of time to complete assignment: 10 hours
+
+        Time     Time
+Date    Started  Spent  Work completed
+-----   -------  -----  --------------
+11/9     8:00pm   3:00  worked on getting traverse, expand, rollout, and backprop to
+                        work with a dictionary implementation of the tree
+11/10    2:00pm   8:00  worked on getting mcts_policy to run more efficiently with
+                        hashes of game positions being stored in the dictionary instead
+                        of the actual game states
+                 -----
+                 11:00  TOTAL time spent
+
+I discussed my solution with: Abhijit Gupta and Kishan Patel.
+
+DISCUSSION
+
+Trying to get the ucb2 formula to work with my implementation of mcts was difficult because I kept getting key errors when trying to store parent and child tuple as a key to the dict. So, I decided
+to just go with ucb1. I initially tried chaining the traverse, expand, rollout, and backprop functions together, but I realized that it limited my ability to handle cases where I wouldn't have to call
+expand and rollout if my traverse function returned a child that was terminal and just implement backprop. So I made these functions independently of each other for more flexibility. I also realized
+that using game states as keys in the dictionary was a very expensive procedure so I calculated the hashes beforehand and used those hashes to index into the dictionaries for optimization.

@@ -1,0 +1,17 @@
+ESTIMATE of time to complete assignment: 5 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+10/4   5:00pm  1:00  read assignment and read over lecture notes
+                     understand the rules.
+10/5   5:00pm  3:00  worked on player 2's expected wins and optimal move
+10/6   5:00pm  2:00  worked on player 1's expected wins and optimal move
+               ----
+               6:00  TOTAL time spent
+
+I discussed my solution with: TA.
+
+DISCUSSION
+
+Understanding how to implement the top down approach for dynamic programming was difficult at first. I initially had trouble trying to understand how to apply Professor Glenn's formulas for calculating expected values for player 2, but as I started to understand the mechanisms of top down programming, I saw how I could use the formula as the recursion part of my code. After implementing expected wins, I allowed my recursive function to take in a roll parameter and also return an optimal move based on that roll. Whenever --expect was called, I just passed in None for roll. I used the same logic for player 1, but with different base cases.
